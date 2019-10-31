@@ -9,7 +9,12 @@
 #include "tmx_world.c.h"
 #include "world_hero.c.h"
 #include "enemy.c.h"
+/*
+超级玛丽 重写版本
+加载tmx地图，
+支持碰撞层，对象层地图
 
+*/
 //#include "graphics.h"
 //#include "android.h"
 //#include "tmx.h"

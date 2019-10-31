@@ -6,8 +6,11 @@
 #include "ex_game.h"
 #include "enemy.h"
 #include "hero.h"
-//#include "tmx.h"
 
+/*
+
+
+*/
 //printf_sprite(96, 32, 32, 32);
 
 void helloworld()
