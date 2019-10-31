@@ -14,6 +14,7 @@
 加载tmx地图，
 支持碰撞层，对象层地图
 
+精灵采用自定义的精灵文件
 */
 //#include "graphics.h"
 //#include "android.h"
