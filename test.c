@@ -15,6 +15,8 @@
 支持碰撞层，对象层地图
 
 精灵采用自定义的精灵文件
+风的影子
+2019-10
 */
 //#include "graphics.h"
 //#include "android.h"
