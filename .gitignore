@@ -45,6 +45,8 @@
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+*.apk
+libcapp.so
 .tmp_versions/
 modules.order
 Module.symvers

@@ -1,0 +1,118 @@
+编译中...
+In file included from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:4:0:
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h: In function 'tiled_addLayer':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:56:18: warning: unused variable 'temp_layer' [-Wunused-variable]
+     TILED_LAYER *temp_layer = map->layer;
+                  ^~~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h: In function 'tiled_readFileCreateTiled':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:181:33: warning: unused variable 'len' [-Wunused-variable]
+                             int len = 0;
+                                 ^~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:105:29: warning: unused variable 'background_layer_temp' [-Wunused-variable]
+     TILED_BACKGROUND_LAYER *background_layer_temp = null;
+                             ^~~~~~~~~~~~~~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:97:11: warning: unused variable 'buf' [-Wunused-variable]
+     char *buf = null;
+           ^~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:96:20: warning: variable 'img_height' set but not used [-Wunused-but-set-variable]
+     int img_width, img_height;
+                    ^~~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:96:9: warning: variable 'img_width' set but not used [-Wunused-but-set-variable]
+     int img_width, img_height;
+         ^~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h: In function 'tiled_getWorldData':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:369:9: warning: unused variable 'scr_h' [-Wunused-variable]
+     int scr_h = layer->item_height * layer->height;
+         ^~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:368:9: warning: unused variable 'scr_w' [-Wunused-variable]
+     int scr_w = layer->item_width * layer->width;
+         ^~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h: In function 'tiled_isCollObjectLayer':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:381:5: warning: implicit declaration of function 'logi'; did you mean 'logf'? [-Wimplicit-function-declaration]
+     logi("碰撞检测错误 当前图层不是对象层");
+     ^~~~
+     logf
+In file included from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/ex_game.h:1:0,
+                 from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:7:
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/sprite.h: In function 'sp_impact':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/sprite.h:359:13: warning: unused variable 'action' [-Wunused-variable]
+     ACTION *action = sprite->action[sprite->offset];
+             ^~~~~~
+In file included from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/world_hero.c.h:6:0,
+                 from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:10:
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h: In function 'readPicture':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:287:15: warning: variable 'end' set but not used [-Wunused-but-set-variable]
+  char *start,*end;
+               ^~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:286:8: warning: variable 'word' set but not used [-Wunused-but-set-variable]
+  char *word;
+        ^~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:285:8: warning: variable 'item' set but not used [-Wunused-but-set-variable]
+  char *item;
+        ^~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h: In function 'readAction':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:450:15: warning: variable 'end' set but not used [-Wunused-but-set-variable]
+  char *start,*end;
+               ^~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h: In function 'readSprite':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:649:15: warning: variable 'end' set but not used [-Wunused-but-set-variable]
+  char *start,*end;
+               ^~~
+In file included from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:11:0:
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/enemy.c.h: In function 'enemy_flower_draw':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/enemy.c.h:252:9: warning: unused variable 'iy' [-Wunused-variable]
+     int iy = enemy->y - ca_gety(camera);
+         ^~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/enemy.c.h:251:9: warning: unused variable 'ix' [-Wunused-variable]
+     int ix = enemy->x - ca_getx(camera);
+         ^~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/enemy.c.h: In function 'enemy_hedgehog_run':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/enemy.c.h:336:28: warning: passing argument 1 of 'tiled_getWorldData' from incompatible pointer type [-Wincompatible-pointer-types]
+     if (tiled_getWorldData(layer, mushroom->x + width / 2, mushroom->y + height - 1)) {
+                            ^~~~~
+In file included from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:4:0:
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/tmx.c.h:367:5: note: expected 'TILED_TILE_LAYER * {aka struct TILED_TILE_LAYER *}' but argument is of type 'TILED_OBJECT_LAYER * {aka struct TILED_OBJECT_LAYER *}'
+ int tiled_getWorldData(TILED_TILE_LAYER *layer, int x, int y) {
+     ^~~~~~~~~~~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c: In function 'init':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:55:19: warning: unused variable 'object_mushroom' [-Wunused-variable]
+     TILED_OBJECT *object_mushroom = layer_mushroom->object;
+                   ^~~~~~~~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c: In function 'logoc':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:113:60: warning: implicit declaration of function 'ca_getw'; did you mean 'ca_gety'? [-Wimplicit-function-declaration]
+         if (hero_getX(hero) + SCRW / 2 > ca_getx(camera) + ca_getw(camera)) {
+                                                            ^~~~~~~
+                                                            ca_gety
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c: In function 'refreshMap':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:172:9: warning: unused variable 'time' [-Wunused-variable]
+     int time = getuptime();
+         ^~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c: In function 'event':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:208:13: warning: implicit declaration of function 'mrc_exit'; did you mean 'app_exit'? [-Wimplicit-function-declaration]
+             mrc_exit();
+             ^~~~~~~~
+             app_exit
+In file included from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/world_hero.c.h:6:0,
+                 from /storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/test.c:10:
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h: In function 'breakHead':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:58:13: warning: 'ptr' is used uninitialized in this function [-Wuninitialized]
+   while(text[ptr])
+             ^
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h: In function 'readRectFlip':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:241:14: warning: 'rect' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      rect->pw=atoi(word);
+      ~~~~~~~~^~~~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:241:15: warning: 'start' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      rect->pw=atoi(word);
+               ^~~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:243:13: warning: 'item' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     else if(memcmp(item,"height",6)==0)
+             ^~~~~~~~~~~~~~~~~~~~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h: In function 'readSprite':
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:651:8: warning: 'text' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  while(*text)
+        ^~~~~
+/storage/emulated/0/mythroad/C/CAPP_超级玛丽重制版/readSprite.h:807:2: warning: 'temp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  free(temp);
+  ^~~~~~~~~~
+编译成功!
